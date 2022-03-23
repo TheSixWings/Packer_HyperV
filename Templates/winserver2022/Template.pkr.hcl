@@ -64,8 +64,8 @@ variable "vm_name" {
 }
 
 source "hyperv-iso" "vm" {
-  boot_command          = ["a<enter><wait>a<enter><wait>a<enter><wait>a<enter>"]
-  boot_wait             = "1s"
+  boot_command          = ["<tab><wait><enter><wait>a<wait>a<wait>a<wait>a<wait>a<wait>a<wait>"]
+  boot_wait             = "70s"
   communicator          = "winrm"
   cpus                  = 4
   disk_size             = "${var.disk_size}"
