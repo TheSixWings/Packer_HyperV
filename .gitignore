@@ -2,3 +2,5 @@ hv_packer
 output-*
 packer_cache
 VagrantBox
+hyperv*
+Templates/winserver2022/secondary.iso
