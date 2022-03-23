@@ -180,7 +180,7 @@ build {
     elevated_password = "password"
     elevated_user     = "Administrator"
     script            = "./Scripts/phase-5a.software.ps1"
-  } */
+  }
 
 
   provisioner "powershell" {
