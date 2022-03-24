@@ -184,8 +184,8 @@ build {
 
 
   provisioner "powershell" {
-    elevated_password = "vagrant"
-    elevated_user     = "vagrant"
+    elevated_password = "password"
+    elevated_user     = "Administrator"
     script            = "./Scripts/phase-5d.windows-compress.ps1"
   }
 
